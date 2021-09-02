@@ -1,0 +1,37 @@
+
+<center>
+  <h3> Transaction Receipts Details </h3>
+  <div class="row">
+    <div style="float:right; margin-right:50px;">
+      <a href="/transactionID">
+        <button type="button" style="background-color: #0066ff" class="waves-effect waves-light btn-small">Latest
+          Transaction ID</button>
+      </a>
+    </div>
+    
+
+    <div class="col s6 offset-s3"
+      style="background-color: rgb(255, 255, 255); opacity: 1.0; height: 300px; padding: 20px 20px;  overflow: scroll; overflow-x: hidden; overflow-y: scroll;">
+      <form autocomplete="off">
+        <div class="formtext">
+          <br>
+          <label style="font-size:16px; float:left; color:black;">Enter Transaction ID</label>
+          <input type="text" id="transactionId10" required>
+
+        </div>
+        <div>
+          <br />
+          <button type="submit" onclick="transactionReceiptData(event)" style="background-color: #0066ff"
+            class="waves-effect waves-light btn-small">Submit</button>
+          <br>
+          <button type="reset" style="float: right; background-color: #ff0000"
+            class="waves-effect waves-light btn-small">Clear</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div>
+    <input type="text" id="result2" placeholder="result coming soon" />
+  </div>
+</center>

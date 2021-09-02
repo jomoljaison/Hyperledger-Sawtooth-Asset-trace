@@ -1,0 +1,35 @@
+{
+  "name": "amsprocessor",
+  "version": "1.0.0",
+  "description": "processor",
+  "main": "assetHandler.js",
+  "scripts": {
+    "start": "node assetProcessor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nothing"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-regex": "^6.0.0",
+    "aproba": "^2.0.0",
+    "bindings": "^1.5.0",
+    "bip66": "^1.1.5",
+    "bl": "^5.0.0",
+    "brorand": "^1.1.0",
+    "buffer-alloc": "^1.2.0",
+    "buffer-alloc-unsafe": "^1.1.0",
+    "buffer-fill": "^1.0.0",
+    "buffer-xor": "^2.0.2",
+    "chownr": "^2.0.0",
+    "crypto-js": "^4.1.1",
+    "protobufjs": "^6.7.3",
+    "sawtooth-sdk": "^1.0.2",
+    "secp256k1": "^3.2.5",
+    "text-encoding": "^0.7.0",
+    "uuid": "^3.0.1",
+    "zeromq": "^4.2.1"
+  }
+}

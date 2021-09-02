@@ -1,0 +1,33 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: pink;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.active {
+  background-color: rgb(199, 43, 4);
+}
+
+nav ul li.active{
+  background-color:#ff2200;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+a {
+  color: #00B7FF;
+}
+

@@ -1,0 +1,68 @@
+
+
+<center>
+  <h3> Registration Department </h3>
+  <div class="row">
+    <div style="float:right; margin-right:50px;">
+      
+    </div>
+    <div class="col s6 offset-s3"
+      style="background-color: rgb(255, 255, 255); opacity: 1.0; height: 618px; padding: 20px 20px;  overflow: scroll; overflow-x: hidden; overflow-y: scroll;">
+      <form autocomplete="off">
+        <div>
+          <br>
+
+          <p style="font-size:20px;color:rgb(7, 29, 29)">
+                 <label style="font-size:16px; float:left; color:black;"> Private Key</label>
+                 <input type="text" id="private1" required>
+
+                  <label style="font-size:16px; float:left; color:black;"> ID</label>
+                  <input type="text" id="asset1" required>
+
+                  <label style="font-size:16px; float:left; color:black;"> Name</label>
+                  <input type="text" id="name1" required>
+
+                  <label style="font-size:16px; float:left; color:black;"> Model</label>
+                  <input type="text" id="make1" required>
+
+                  <label style="font-size:16px; float:left; color:black;"> Date</label>
+                  <input type="date" id="date1" required>
+
+                  
+                  
+      </p>
+
+
+        </div>
+        <div>
+          <br />
+          <button type="submit" onclick="registrationDepartment(event)" style="background-color: #1a0688"
+            class="waves-effect waves-light btn-small">Submit</button>
+         
+          <button type="reset" style="float: right; background-color: #ff0000"
+            class="waves-effect waves-light btn-small">Clear</button>
+            <br><br><br>
+
+
+            <a href="/delete">
+        <button type="button" style="background-color: #ff0000" class="waves-effect waves-light btn-small">Delete
+          Asset Details</button>
+      </a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="/transactionID">
+        <button type="button" style="background-color: #04214d" class="waves-effect waves-light btn-small">Latest
+          Transaction ID</button>
+      </a>&nbsp;&nbsp;&nbsp;
+
+      <a href="/transactionReceipts">
+        <button type="button" style="background-color: #0066ff" class="waves-effect waves-light btn-small">Transaction
+          Receipts</button>
+      </a>
+        </div>
+      </form>
+      
+    </div>
+  </div>
+  
+</center>
+
+<script src="/javascripts/main.js"></script>
